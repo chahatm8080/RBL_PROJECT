@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import "../styles/SummaryShortcuts.css";
 import ServiceIcon from "./ServiceIcon";
-import Chatbot from "./Chatbot";
+
 const SummaryShortcuts = () => {
   return (
     <section className="summary-shortcuts">
@@ -15,7 +15,7 @@ const SummaryShortcuts = () => {
           with experienced professionals who can address your specific legal
           needs.
         </p>
-        <Chatbot></Chatbot>
+      
       </div>
       <div className="shortcuts">
         <h1>Our services</h1>
